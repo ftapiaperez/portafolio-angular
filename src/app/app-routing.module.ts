@@ -5,7 +5,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemsComponent } from './pages/items/items.component';
 
 
-const app_routes: Routes = [
+const appRoutes: Routes = [
 { path: 'home', component: PortafolioComponent},
 { path: 'about', component: AboutComponent},
 { path: 'items', component: ItemsComponent},
@@ -15,7 +15,7 @@ const app_routes: Routes = [
 
 @NgModule({
     imports: [
-        RouterModule.forRoot(app_routes, { useHash: true})
+        RouterModule.forRoot(appRoutes, { useHash: true})
     ],
     exports: [
         RouterModule
