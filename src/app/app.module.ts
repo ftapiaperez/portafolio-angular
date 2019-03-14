@@ -12,6 +12,7 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemsComponent } from './pages/items/items.component';
 import { HttpClient } from 'selenium-webdriver/http';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HttpClient } from 'selenium-webdriver/http';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemsComponent
+    ItemsComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
